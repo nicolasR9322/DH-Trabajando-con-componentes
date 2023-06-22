@@ -4,6 +4,19 @@ descripcion: En esta ejercitación tendremos la responsabilidad de mejorar el Da
 
     -base: 
         -trabajo practico anterior
+    
+    -desafio 1:
+        -separar los componentes ContentRowMovies.js,LastMovieInDb.js y GenresInDb.js.
+        -En contentRowMovies:
+            -recibe via props toda la informaicon que estas muestran, 4 en total (titulo,cifra,color de borde, icono)
+            -los 3 componentes deberan renderizarse por medio de un map el cual iterara sobre un array de objetos con la formacion de cada metrica
+            -implementar propTypes de la siguiente forma
+                -titulo: string y obligatorio
+                -color de borde: string y obligatorio
+                -cifra: string o number y obligatorio
+                -icono: una de las siguientes tres opciones: border-left-primary,border-left-successo border-left-warning; y obligatorio.
+            -implementar defaultProps para las props de caracter obligatorio
+        -Realizar lo mismo con los 2 componentes restantes
 
 
 # Getting Started with Create React App
