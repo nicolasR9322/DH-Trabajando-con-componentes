@@ -17,6 +17,12 @@ descripcion: En esta ejercitación tendremos la responsabilidad de mejorar el Da
                 -icono: una de las siguientes tres opciones: border-left-primary,border-left-successo border-left-warning; y obligatorio.
             -implementar defaultProps para las props de caracter obligatorio
         -Realizar lo mismo con los 2 componentes restantes
+    -desafio 2:
+        -Nuestro próximo desafío es sumar a la aplicación un componente adicional, el cual estará
+        antes del footer. deberemos generar dos componentes. 
+            -Uno para la tabla
+            -otro para la fila y sus respectivas celdas ademas deberá ser dinámico para recibir la información
+            correspondiente y renderizarla.
 
 
 # Getting Started with Create React App
